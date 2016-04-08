@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>未央|Ordin</title>
+<!--布局-->
+<link href="css/content_styles.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<header id="wrapper">
+  <div class="container clearfix">
+    <h1 id="logo"><a href="Index.html">MY FOLIO</a></h1>
+    <div id="nav-button"> <span class="nav-bar"></span> <span class="nav-bar"></span> <span class="nav-bar"></span> </div>
+    <div id="options" class="clearfix">
+      <ul id="filters" class="option-set clearfix" data-option-key="filter">
+        <li><a href="Index.html" class="selected">发布|Send</a></li>
+        <li><a href="Index.html">最热|Hot</a></li>
+        <li><a href="Index.html">收藏|Favorite</a></li>
+        <li><a href="Index.html">个人中心|Me</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<div class="container">
+  <div id="container" class="clearfix">
+    <div class="element  clearfix col2-3 post post2">
+    <form action="Edit.jsp" method="post">
+      <div class="images"><img src="images/blog-post.jpg" alt="" />
+              <div class="icons close"><input type="file" name="UploadFile"></div>
+        </div>
+      <div class="white-bottom">
+        <h2><input type="text" name="Title"/ id="Title"></h2>
+        <textarea name="Content" id="Content"></textarea>
+        <input id="EditSubmit" type="submit" value="发送"/>
+      </div>
+      </form>
+    </div>
+   </div>
+</div>
+</body>
+</html>
